@@ -9,15 +9,15 @@ const NavBar = ({nav}) => {
 
   <nav className='nav'>
     <h1>My website</h1>
-  <ul>
+  <ul className='list'>
     <Link to ="/" >
-       <li>HomePage</li>
+       <li className='homepage'>HomePage</li>
        </Link>
     <Link to ="/ContactUs">
-       <li>ContactUs</li>
+       <li className='contactus'>ContactUs</li>
     </Link>
     <Link to ="/OurServices">
-       <li>OurServices</li>
+       <li className='ourservices'>OurServices</li>
     </Link>
   </ul>
   </nav>  

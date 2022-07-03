@@ -1,6 +1,32 @@
 .nav{
+    background-color: rgb(189, 139, 82);
+    color: white;
+}
+.homepage{
+
+}
+.list{
     display: flex;
     flex-direction: row;
-    background-color: black;
     color: white;
+    text-align: center;
+   
+    text-decoration: none;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+.homepage{
+    height: 50px;
+width: 10px;
+font-size: 30px
+}
+.contactus{
+    height: 50px;
+width: 10px;
+font-size: 30px
+}
+.ourservices{
+    height: 50px;
+width: 10px;
+font-size: 30px
 }
